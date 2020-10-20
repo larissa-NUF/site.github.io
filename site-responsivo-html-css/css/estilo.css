@@ -1,0 +1,418 @@
+/*--formatação geral--*/
+body{
+	font-family: Roboto, Ubuntu, "Open Sans", sans-serif;
+}
+h1, h2, h3{
+	margin: 0;
+	font-family: Ubuntu, Roboto, "Open Sans", sans-serif;
+	font-weight: 700;
+}
+
+p{
+	font-family: "Open Sans", Ubuntu, Roboto, sans-serif;
+}
+
+.container{
+	width: 100%;
+}
+
+/*--cabeçalho ou barra de navegação--*/
+
+.logo img{
+	border-radius: 0%;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #5EB0AB;
+	padding: 10px;
+
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+nav ul li{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2%;
+
+}
+
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/*--header--*/
+
+header{
+	background-image: url(../img/fundo.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 300px;
+
+
+
+}
+
+header p{
+	margin-bottom: 2em;
+	font-size: 1.5em;
+}
+
+.botao{
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #000000;
+	padding: 10px 30px;
+	border-radius: 5%;
+}
+
+/*sobre*/
+
+#sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #5EB0AB;
+	color: #ffffff;
+}
+
+#sobre h2{
+	margin-top: 20px;
+	font-size: 2em;
+
+}
+.foto img{
+	width: 60%;
+}
+
+.foto{
+	float: left;
+	width: 50%;
+}
+
+.texto{
+	float: right;
+	width: 50%;
+}
+
+#especialidades{
+	padding: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin:0 auto;
+}
+
+#especialidades div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#especialidades p{
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.2em;
+}
+
+#especialidades img{
+	margin: 10px 0;
+}
+
+#especialidades h2{
+	font-size: 2em;
+}
+
+#competencias {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+#competencias h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+
+#competencias h3, p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+ #competencias a{
+ 	text-decoration: none;
+ }
+
+ #competencias img {
+ 	width: 100%;
+ 	margin:0;
+ }
+
+ #competencias .comp p{
+ 	border-left: 2px solid black;
+ 	border-right: 2px solid black;
+ 	border-bottom: 7px solid black;
+ 	border-radius: 20%;
+ 	margin-top: 0;
+ 	font-family: Roboto, Ubuntu, "Open Sans", sans-serif;
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+ 	line-height: 3.5;
+}
+
+.proj div{
+	align-items: center;
+	margin:0;
+	padding: 20px;
+	margin: 20px;
+}
+
+ 
+.proj img:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	
+}
+
+#hobby{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	width:100%;
+}
+
+#hobby h2{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.hobby{
+	width: 80%;
+	align-items: center;
+	text-align: center;
+}
+
+.hobby h3{
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
+
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #5EB0AB;
+	width:100%;
+}
+
+#contato h2{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-size: 2em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#contato > p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#contato a{
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+}
+
+footer{
+	text-align: center;
+	width: 100%;
+	background-color: #000000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #ffffff;
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
+@media only screen and (min-device-width: 900px) {
+/*--cabeçalho ou barra de  navegação--*/
+
+nav{
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+nav ul{
+	flex-direction: row;
+	width: 70%;
+
+}
+
+/*--header--*/
+
+header{
+	height: 200px;
+	height: 20vh;
+	justify-content: center;
+
+
+}
+
+/*--sobre--*/
+
+#sobre{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+}
+
+#sobre h2{
+	text-align: center;
+	width: 100%;
+}
+
+#sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	
+}
+
+.texto{
+	float: right;
+	padding: 0 5em;
+
+}
+
+.foto{
+	padding: 0 30px;
+}
+
+/*--Especialidades--*/
+
+#especialidades{
+	padding: 10;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	max-width: 1000px;
+	margin:0 auto;
+}
+
+#especialidades h2{
+	text-align: center;
+	width: 100%;
+}
+
+#especialidades div{
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 2vh;
+}
+
+#competencias {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+#competencias h2, h3{
+	width: 100%;
+	text-align: center;
+
+
+}
+
+#competencias .comp{
+	width: 33.3333333333333%;
+	text-align: center;
+
+
+}
+
+.proj{
+	padding:0.3%;
+}
+
+.edit{
+	flex-direction:row;
+	display: inline-block;
+	width: 40%;
+
+}
+.edit2 div{
+	float: right;
+}
+
+#contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+}
+
+
+#contato p{
+	width: 100%;
+	text-align: center;
+}
+}
