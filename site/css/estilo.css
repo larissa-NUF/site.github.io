@@ -27,3 +27,15 @@
     margin-top: 56px;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+.gadriente{
+  background-image:  linear-gradient (to right, #,#);
+}
+.img-sobre{
+  
+}
+.sobre{
+  width: 60%;
+}
