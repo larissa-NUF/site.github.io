@@ -34,8 +34,20 @@ html {
   background-image:  linear-gradient (to right, #,#);
 }
 .img-sobre{
-  
+  width: 60%;
+  text-align: center;
+  padding: auto;
 }
 .sobre{
-  width: 60%;
+  width: 100%;
+}
+
+
+.tabela {
+  margin-bottom: 10px;
+  border-left: 5pt solid #f69f2e;
+}
+#sobre .texto-sobre{
+  text-align: justify;
+
 }
